@@ -1,0 +1,7 @@
+specVersion: "4.0"
+metadata:
+  name: sap_and_fiori
+type: application
+framework:
+  name: SAPUI5
+  version: "1.131.1"
