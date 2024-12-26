@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/model/json/JSONModel","sap/ui/model/resource/ResourceModel"],function(e,n,i){"use strict";return e.extend("sap_and_fiori.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);var o=new n({message:""});this.setModel(o);var s=new i({bundleName:"sap_and_fiori.i18n.i18n"});this.setModel(s,"i18n")}})});
+//# sourceMappingURL=Component-dbg.js.map

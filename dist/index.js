@@ -1,0 +1,2 @@
+sap.ui.getCore().attachInit(function(){sap.ui.require(["sap/ui/core/mvc/XMLView","sap_and_fiori/Component"],function(e,i){var n=new i;n.init();e.create({viewName:"sap_and_fiori.view.App"}).then(function(e){e.setModel(n.getModel("i18n"),"i18n");e.placeAt("content")})})});
+//# sourceMappingURL=index.js.map

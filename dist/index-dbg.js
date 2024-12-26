@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/ComponentContainer"],function(n){"use strict";sap.ui.getCore().attachInit(function(){new n({name:"sap_and_fiori",settings:{id:"sap_and_fiori"},async:true}).placeAt("content")})});
+//# sourceMappingURL=index-dbg.js.map

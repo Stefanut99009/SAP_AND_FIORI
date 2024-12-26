@@ -1,11 +1,14 @@
-sap.ui.getCore().attachInit(function () {
-    "use strict";
+sap.ui.define([
+    "sap/ui/core/ComponentContainer"
+], function (ComponentContainer) {
+	"use strict";
 
-    // Create a simple button
-    new sap.m.Button({
-        text: "Click Me",
-        press: function () {
-            sap.m.MessageToast.show("Hello, OpenUI5!");
-        }
-    }).placeAt("content");
+	new ComponentContainer({
+		name: "sap.ui.demo.walkthrough",
+		settings : {
+			id: "walkthrough"
+		},
+		async: true
+	}).placeAt("content");
+
 });

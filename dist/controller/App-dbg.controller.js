@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";return e.extend("sap_and_fiori.controller.App",{onInit:function(){var e=this.getOwnerComponent();var r=e.getModel("i18n").getResourceBundle();var n=e.getModel();if(!r){console.error("i18n Resource Bundle is not available.");return}if(!n){console.error("JSON Model is not available.");return}var o=r.getText("greetingMessage");n.setProperty("/message",o);console.log("Message initialized:",o)}})});
+//# sourceMappingURL=App-dbg.controller.js.map
